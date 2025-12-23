@@ -1,3 +1,7 @@
+# Agent environments
+
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+pixi*
+# ignoring pixi for now since environments could change frequently
