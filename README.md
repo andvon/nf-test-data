@@ -1,16 +1,17 @@
-# nf-test-data
+# nf-bed-analysis
 
-Test data repository for Nextflow pipelines that follows general structure of [nf-core/test-datasets](https://github.com/nf-core/test-datasets).
-Each branch contains datasets for specific workflows or analyses.
+Test data for BED file analysis workflows.
 
-## Branch Structure
+## Datasets
 
-The main branch (this one) contains the overview and information about how the repository is organized.
+### Human Genome (hg38)
 
-## General guidelines
+| File | Description |
+|------|-------------|
+| `genomes/hg38/fasta/chr9_100k.fasta.gz` | First 100kb of chromosome 9 |
+| `genomes/hg38/gtf/chr9_100k.gencode.v49.basic.annotation.gtf.gz` | GENCODE v49 annotations for chr9 first 100kb |
 
-### Data Conventions
+#### References
 
-- Test data files should be small subsets of real data (e.g., single chromosome regions)
-- Compressed files generally use `.gz` extension
-- Each branch should include a README describing its datasets as needed
+- GENCODE v49: https://www.gencodegenes.org/human/release_49.html
+
